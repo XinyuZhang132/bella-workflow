@@ -342,6 +342,7 @@ const translation = {
         output: 'Generate content',
         reasoningContent: 'Reasoning process (only reasoning models support)',
         usage: 'Model Usage Information',
+        finishReason: 'Reason for stopping LLM generation',
       },
       singleRun: {
         variable: 'Variable',
@@ -509,6 +510,8 @@ const translation = {
       inputVars: 'Input Variables',
       outputVars: {
         className: 'Class Name',
+        usage: 'Model Usage Information',
+        finishReason: 'Reason for stopping LLM generation',
       },
       class: 'Class',
       classNamePlaceholder: 'Write your class name',
@@ -545,6 +548,8 @@ const translation = {
       reasoningModeTip: 'You can choose the appropriate reasoning mode based on the model\'s ability to respond to instructions for function calling or prompts.',
       isSuccess: 'Is Success.On success the value is 1, on failure the value is 0.',
       errorReason: 'Error Reason',
+      finishReason: 'Reason for stopping LLM generation',
+      usage: 'Model Usage Information',
       files: 'Files',
       vision: 'Vision',
     },
@@ -623,6 +628,15 @@ const translation = {
     expression: 'Trigger Condition',
     datasource: 'Data Source',
     expressionTypeDesc: 'Trigger Condition Type',
+    crontabRequired: 'Workflow execution time required',
+    datasourceRequired: 'Kafka data source required',
+    debug: {
+      fail: 'Task failed, check workflow',
+      success: 'Test completed',
+      onRun: 'Running...',
+      onIdle: 'Test triggered',
+    },
+    outputs: 'Workflow output parameters',
     toggle: {
       activate: 'Trigger activated',
       deactivate: 'Trigger deactivated',

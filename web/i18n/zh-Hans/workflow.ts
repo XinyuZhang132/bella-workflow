@@ -344,6 +344,7 @@ const translation = {
         output: '生成内容',
         reasoningContent: '推理过程 (仅推理模型支持)',
         usage: '模型用量信息',
+        finishReason: 'LLM生成停止的原因',
       },
       singleRun: {
         variable: '变量',
@@ -521,6 +522,8 @@ const translation = {
       inputVars: '输入变量',
       outputVars: {
         className: '分类名称',
+        usage: '模型用量信息',
+        finishReason: 'LLM生成停止的原因',
       },
       class: '分类',
       classNamePlaceholder: '输入你的分类名称',
@@ -557,6 +560,8 @@ const translation = {
       reasoningModeTip: '你可以根据模型对于 Function calling 或 Prompt 的指令响应能力选择合适的推理模式',
       isSuccess: '是否成功。成功时值为 1，失败时值为 0。',
       errorReason: '错误原因',
+      finishReason: 'LLM生成停止的原因',
+      usage: '模型用量信息',
       files: '文件',
       vision: '视觉',
     },
@@ -635,6 +640,15 @@ const translation = {
     expression: '触发条件',
     datasource: '数据源',
     expressionTypeDesc: '触发条件类型',
+    crontabRequired: '工作流的执行时间必填',
+    datasourceRequired: 'Kafka数据源必填',
+    debug: {
+      fail: '任务失败,检查工作流',
+      success: '测试完成',
+      onRun: '运行中...',
+      onIdle: '测试触发',
+    },
+    outputs: '工作流出参',
     toggle: {
       activate: '触发器已激活',
       deactivate: '触发器已停用',
