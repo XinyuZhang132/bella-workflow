@@ -250,7 +250,7 @@ const CreateTriggerModal = ({ show, onSuccess, onClose, workflowId }: CreateTrig
             value={kafkaExpression}
             options={{
               lineNumbers: 'on',
-              tabsize: 2,
+              tabSize: 2,
             }}
             onChange={(newValue, e) => setKafkaExpression(newValue || '')}
           />
@@ -275,7 +275,7 @@ const CreateTriggerModal = ({ show, onSuccess, onClose, workflowId }: CreateTrig
           value={inputs}
           options={{
             lineNumbers: 'on',
-            tabsize: 2,
+            tabSize: 2,
           }}
           onChange={(newValue, e) => setInputs(newValue || '{}')}
         />
